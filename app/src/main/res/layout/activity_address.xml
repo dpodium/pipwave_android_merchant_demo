@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/rl1"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="90dp"
+            android:layout_height="358dp">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/name"
+                android:textAlignment="viewEnd"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtAddress1"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtName"
+                android:text="@string/address"
+                android:textAlignment="viewEnd"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtCity"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtAddress1"
+                android:layout_marginTop="38dp"
+                android:text="@string/city"
+                android:textAlignment="viewEnd"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txtState"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtCity"
+                android:text="@string/state"
+                android:textAlignment="viewEnd"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/txtZip"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtState"
+                android:text="@string/zip"
+                android:textAlignment="viewEnd"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/txtCountry"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtZip"
+                android:text="@string/country"
+                android:textAlignment="viewEnd"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/txtContact"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtCountry"
+                android:text="@string/contact_no"
+                android:textAlignment="viewEnd"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtContact"
+                android:text="@string/email"
+                android:textAlignment="viewEnd"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="358dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:labelFor="@id/editName"
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zamri"
+                android:textSize="12sp"
+                android:inputType="text" />
+
+            <EditText
+                android:labelFor="@id/editAddress1"
+                android:id="@+id/editAddress1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/blok_a_12_12_pangsapuri_mawar"
+                android:textSize="12sp"
+                android:inputType="text" />
+
+            <EditText
+                android:labelFor="@id/editAddress2"
+                android:id="@+id/editAddress2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bandar_baru_sentul"
+                android:textSize="12sp"
+                android:inputType="text" />
+
+            <EditText
+                android:labelFor="@id/editCity"
+                android:id="@+id/editCity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kuala_lumpur"
+                android:textSize="12sp"
+                android:inputType="text" />
+
+            <EditText
+                android:labelFor="@id/editState"
+                android:id="@+id/editState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/w_p_kuala_lumpur"
+                android:textSize="12sp"
+                android:inputType="text" />
+
+            <EditText
+                android:labelFor="@id/editZip"
+                android:id="@+id/editZip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_51000"
+                android:textSize="12sp"
+                android:inputType="text" />
+
+            <EditText
+                android:labelFor="@id/editCountry"
+                android:id="@+id/editCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/malaysia"
+                android:textSize="12sp"
+                android:inputType="text" />
+
+            <EditText
+                android:labelFor="@id/editContact"
+                android:id="@+id/editContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_0192901157"
+                android:textSize="12sp"
+                android:inputType="text" />
+
+            <EditText
+                android:labelFor="@id/editEmail"
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/zamriyusof1994_gmail_com"
+                android:textSize="12sp"
+                android:inputType="textEmailAddress" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/rl1">
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/continuee"
+            android:onClick="cont"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
